@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="cafe.css">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <a href="#home">Home</a>
+    <a class="dropdown-btn">Shop
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-container">
+      <a href="#" onclick="showMenu('coffee'); return false;" class="menu-link">Coffee</a>
+      <a href="#" onclick="showMenu('tea'); return false;" class="menu-link">Tea</a>
+      <a href="#" onclick="showMenu('snacks'); return false;" class="menu-link">Snacks</a>
+    </div>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="content">
+
+    <div class="menu" id="coffee-menu">
+      <div class="container">
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>Made with a shot of espresso and steamed milk, topped with foamed milk.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Cappuccino</h3>
+            <p class="price">$4.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>A coffee drink made with espresso and steamed milk.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Latte</h3>
+            <p class="price">$5.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>A delightful combination of espresso, chocolate, and steamed milk.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Mocha</h3>
+            <p class="price">$5.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground
+              coffee beans.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Espresso</h3>
+            <p class="price">$2.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>Chilled coffee served over ice, often sweetened and flavored as per your choice.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Iced Coffee</h3>
+            <p class="price">$3.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>Espresso with steamed milk and caramel, topped with foamed milk and a caramel drizzle.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Caramel Macchiato</h3>
+            <p class="price">$5.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>A coffee made by diluting espresso with hot water, resulting in a similar strength to drip coffee.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Americano</h3>
+            <p class="price">$4.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="1.png" alt="Coffee Item">
+          <div class="description secondary">
+            <p>A latte with cinnamon dolce syrup, espresso, steamed milk, and whipped cream.</p>
+          </div>
+          <div class="description">
+            <h3 class="title">Cinnamon Dolce Latte</h3>
+            <p class="price">$6.49</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="menu" id="tea-menu">
+      <div class="container">
+        <!-- Tea Menu Items -->
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Green Tea">
+          <div class="description">
+            <h3 class="title">Green Tea</h3>
+            <p class="price">$3.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Earl Grey Tea">
+          <div class="description">
+            <h3 class="title">Earl Grey Tea</h3>
+            <p class="price">$4.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Chamomile Tea">
+          <div class="description">
+            <h3 class="title">Chamomile Tea</h3>
+            <p class="price">$4.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Black Tea">
+          <div class="description">
+            <h3 class="title">Black Tea</h3>
+            <p class="price">$3.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Oolong Tea">
+          <div class="description">
+            <h3 class="title">Oolong Tea</h3>
+            <p class="price">$4.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Herbal Tea">
+          <div class="description">
+            <h3 class="title">Herbal Tea</h3>
+            <p class="price">$4.29</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Peppermint Tea">
+          <div class="description">
+            <h3 class="title">Peppermint Tea</h3>
+            <p class="price">$4.79</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Jasmine Tea">
+          <div class="description">
+            <h3 class="title">Jasmine Tea</h3>
+            <p class="price">$5.29</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="White Tea">
+          <div class="description">
+            <h3 class="title">White Tea</h3>
+            <p class="price">$4.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="2.png" alt="Rooibos Tea">
+          <div class="description">
+            <h3 class="title">Rooibos Tea</h3>
+            <p class="price">$4.99</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="menu" id="snacks-menu">
+      <div class="container">
+
+        <div class="box menu-item">
+          <img src="3.png" alt="Potato Chips">
+          <div class="description">
+            <h3 class="title">Potato Chips</h3>
+            <p class="price">$2.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="3.png" alt="Pretzels">
+          <div class="description">
+            <h3 class="title">Pretzels</h3>
+            <p class="price">$2.99</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="3.png" alt="Mixed Nuts">
+          <div class="description">
+            <h3 class="title">Mixed Nuts</h3>
+            <p class="price">$4.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="3.png" alt="Chocolate Cookies">
+          <div class="description">
+            <h3 class="title">Chocolate Cookies</h3>
+            <p class="price">$3.49</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="3.png" alt="Assorted Candy">
+          <div class="description">
+            <h3 class="title">Assorted Candy</h3>
+            <p class="price">$2.79</p>
+          </div>
+        </div>
+
+        <div class="box menu-item">
+          <img src="3.png" alt="Dried Fruit Mix">
+          <div class="description">
+            <h3 class="title">Dried Fruit Mix</h3>
+            <p class="price">$3.99</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="cafe.js"></script>
+</body>
+
+</html>
